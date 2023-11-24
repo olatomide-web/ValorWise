@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Livvic:wght@700&display=swap');
+
+.container-fluid{
+    background-color:#f9fafb;
+}
+
+span{
+    color: #22C55E;
+}
+
+.button{
+    background-color: #062537;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    border: none;
+}
+
+.button:hover{
+    background-color: #22C55E;
+    color: #fff;
+    transition: 3s ease-in-out;
+}
+.button2{
+    background-color: #22C55E;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: 3s ease-in-out;
+
+}
+h1{
+    font-weight:900;
+    line-height:55px;
+    font-size: 3em;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Livvic', sans-serif;
+    font-weight:900;
+    letter-spacing:normal;
+    color:#0b1926;
+}
+
+h6, p{
+    font-family: 'Quicksand', sans-serif;
+    color:#000000;
+    font-weight: 550;
+}
+
+.icons{
+    background-color: #062537;
+}
+
+
+
+@media screen and (max-width: 800px) {      
+    h1{
+        font-weight:900;
+        line-height:50px;
+        font-size: 2.2em;
+    }
+  }
